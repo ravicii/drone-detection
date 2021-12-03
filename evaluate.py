@@ -2,8 +2,8 @@ from core import Core
 
 
 c = Core()
-
-image_filename = c.current_path + "/DataSets/Drones/testImages/351.jpg"
+path="/test.jpg"
+image_filename = c.current_path + path
 image = c.load_image_by_path(image_filename)
 
 drawing_image = c.get_drawing_image(image)
